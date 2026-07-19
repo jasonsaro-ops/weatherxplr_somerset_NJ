@@ -8,7 +8,9 @@ const AIRNOW_API_KEY = "E5AFEF36-80F6-4A42-AE38-F3C56E3AEAC4";
 const somersetGauges = [
     { id: "01460500", name: "D&R Canal at Kingston, NJ", lat: 40.3736, lon: -74.6183, noaaId: "DRCNJ1" },
     { id: "01460440", name: "D&R Canal at Port Mercer, NJ", lat: 40.3044, lon: -74.6850, noaaId: "DRCNJ2" },
-    { id: "01460595", name: "D&R Canal at Landing Lane, New Brunswick, NJ", lat: 40.5078, lon: -74.4642, noaaId: "DRCNJ3" }
+    { id: "01460595", name: "D&R Canal at Landing Lane, New Brunswick, NJ", lat: 40.5078, lon: -74.4642, noaaId: "DRCNJ3" },
+    { id: "01401750", name: "Millstone River at Griggstown, NJ", lat: 40.4391, lon: -74.6179, noaaId: "DRCNJ4" },
+    { id: "01460525", name: "D&R Canal at Griggstown, NJ", lat: 40.4399, lon: -74.6162, noaaId: "DRCNJ5" }
 ];
 
 let globalForecastDataCache = null;
